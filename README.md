@@ -47,6 +47,7 @@ These operations are cached and depend on each other in the order below. If you 
 - 04-Freesound Kaggle - A guide to using the library and it's features for the Kaggle Freesound 2018 competition on acoustic scene classification. Also uses melspectrograms and mixup and includes inference on a test set.
 - Coming Soon: 05a-Googlespeech Kaggle MFCC+Delta - Using MFCC's with delta/accelerate stacking to enter the Google Tensorflow speech challenge from 2018. Includes semisupervised learning (using a model to pseudolabel an unlabeled set).
 - Coming Soon: 05b-Googlespeech Kaggle Melspec Ensemble - An alternate model that uses melspectrograms and SpecAugment (no mixup). We then ensemble this with the model from 05a to do inference on a test set and submit.
+- Coming Soon: Speech Recognition on the [TIMIT dataset](https://github.com/philipperemy/timit)
 
 # Known Issues
 - We don't currently understand normalization for audio and the best way to implement it. 
